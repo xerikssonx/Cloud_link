@@ -1,0 +1,10 @@
+entity CodeTab {
+	name String,
+	code String,
+    languaeg String
+    
+}
+
+relationship ManyToOne {
+	CodeTab{user} to User
+}
